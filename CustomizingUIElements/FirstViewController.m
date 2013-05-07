@@ -29,6 +29,16 @@
     UIImage *image = [UIImage imageNamed:@"NinjaIcon"];
     UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
     [self.navigationItem setTitleView:imageView];
+    
+    // here's how you make a barButton
+    UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithTitle:@"Honk!" style:UIBarButtonItemStyleBordered target:self action:@selector(onTap)];
+    // now let's actually put it on the navBar
+    self.navigationItem.rightBarButtonItem = button;
+
+}
+
+- (void)onTap{
+    NSLog(@"Hello ninja.");
 }
 
 - (void)didReceiveMemoryWarning

@@ -17,6 +17,9 @@
     UIImage *navBarImage = [UIImage imageNamed:@"Navbar"];
     [[UINavigationBar appearance] setBackgroundImage:navBarImage forBarMetrics:UIBarMetricsDefault];
     
+    UIImage *buttonImage = [UIImage imageNamed:@"Barbutton"];
+    [[UIBarButtonItem appearance] setBackgroundImage:buttonImage forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     FirstViewController *vc = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:[NSBundle mainBundle]];
     UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:vc];

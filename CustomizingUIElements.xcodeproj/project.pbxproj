@@ -18,7 +18,7 @@
 		AF9A37B1173883D5003E4874 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9A37B0173883D5003E4874 /* Default-568h@2x.png */; };
 		AF9A37BA1738843F003E4874 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9A37B81738843F003E4874 /* FirstViewController.m */; };
 		AF9A37BB1738843F003E4874 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF9A37B91738843F003E4874 /* FirstViewController.xib */; };
-		AF9A37C11738875C003E4874 /* Barbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9A37BD1738875C003E4874 /* Barbutton@2x.png */; };
+		AF9A37C11738875C003E4874 /* Barbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9A37BD1738875C003E4874 /* Barbutton.png */; };
 		AF9A37C21738875C003E4874 /* Navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9A37BE1738875C003E4874 /* Navbar.png */; };
 		AF9A37C31738875C003E4874 /* Navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9A37BF1738875C003E4874 /* Navbar@2x.png */; };
 		AF9A37C41738875C003E4874 /* NinjaIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9A37C01738875C003E4874 /* NinjaIcon@2x.png */; };
@@ -41,7 +41,7 @@
 		AF9A37B71738843F003E4874 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		AF9A37B81738843F003E4874 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		AF9A37B91738843F003E4874 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
-		AF9A37BD1738875C003E4874 /* Barbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Barbutton@2x.png"; sourceTree = "<group>"; };
+		AF9A37BD1738875C003E4874 /* Barbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barbutton.png; sourceTree = "<group>"; };
 		AF9A37BE1738875C003E4874 /* Navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Navbar.png; sourceTree = "<group>"; };
 		AF9A37BF1738875C003E4874 /* Navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Navbar@2x.png"; sourceTree = "<group>"; };
 		AF9A37C01738875C003E4874 /* NinjaIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NinjaIcon@2x.png"; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		AF9A37BC1738875C003E4874 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				AF9A37BD1738875C003E4874 /* Barbutton@2x.png */,
+				AF9A37BD1738875C003E4874 /* Barbutton.png */,
 				AF9A37BE1738875C003E4874 /* Navbar.png */,
 				AF9A37BF1738875C003E4874 /* Navbar@2x.png */,
 				AF9A37C01738875C003E4874 /* NinjaIcon@2x.png */,
@@ -183,7 +183,7 @@
 				AF9A37AF173883D5003E4874 /* Default@2x.png in Resources */,
 				AF9A37B1173883D5003E4874 /* Default-568h@2x.png in Resources */,
 				AF9A37BB1738843F003E4874 /* FirstViewController.xib in Resources */,
-				AF9A37C11738875C003E4874 /* Barbutton@2x.png in Resources */,
+				AF9A37C11738875C003E4874 /* Barbutton.png in Resources */,
 				AF9A37C21738875C003E4874 /* Navbar.png in Resources */,
 				AF9A37C31738875C003E4874 /* Navbar@2x.png in Resources */,
 				AF9A37C41738875C003E4874 /* NinjaIcon@2x.png in Resources */,
